@@ -4,7 +4,7 @@ if (!isset($_GET['module'])) {
 	$_GET['module'] = 'static';
 }
 if (!isset($_GET['page'])) {
-	$_GET['page'] = 'main';
+	$_GET['page'] = 'main'; //
 }
 
 ob_start();
